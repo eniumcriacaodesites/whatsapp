@@ -37,7 +37,7 @@ app.get('/webhook', (req, res) => {
 
 app.get('/teste', (req, res) => {
    console.log('Rota funcionando');
-
+   res.send('Rota de teste funcionando!');
 });
 // Rota para receber mensagens
 app.post('/webhook', (req, res) => {
