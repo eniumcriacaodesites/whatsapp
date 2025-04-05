@@ -119,7 +119,7 @@ async function sendMessage(phone_number_id, to, message) {
             'Content-Type': 'application/json'
          },
          data: {
-            messaging_product: 'hello_word',
+            messaging_product: 'WHATSAPP',
             to: to,
             text: { body: message }
          }
