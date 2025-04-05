@@ -74,7 +74,7 @@ app.post('/send-test', async (req, res) => {
             error: 'Número de telefone e mensagem são obrigatórios',
             example: {
                to: '5511999999999',
-               message: 'Sua mensagem aqui'
+               message: 'Sua mensagem aquii'
             }
          });
       }
