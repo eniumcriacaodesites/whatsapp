@@ -119,7 +119,7 @@ async function sendMessage(phone_number_id, to, message) {
             'Content-Type': 'application/json'
          },
          data: {
-            messaging_product: 'bem_vindo',
+            messaging_product: 'hello_word',
             to: to,
             text: { body: message }
          }
