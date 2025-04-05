@@ -4,7 +4,9 @@
    "description": "Aplicação para integração com a API do WhatsApp",
    "main": "index.js",
    "scripts": {
-      "start": "node index.js"
+      "start": "node index.js",
+      "build": "npm install",
+      "vercel-build": "echo 'Build completo'"
    },
    "dependencies": {
       "express": "^4.18.2",
